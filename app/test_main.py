@@ -37,7 +37,8 @@ def test_get_human_age_should_be_equal_to_two_upper_boundary() -> None:
     assert get_human_age(cat_age, dog_age) == [2, 2]
 
 
-def test_get_human_age_should_be_equal_to_more_then_two_lower_boundary() -> None:
+def test_get_human_age_should_be_equal_to_more_then_two_lower_boundary() \
+        -> None:
     cat_age = 28
     dog_age = 29
     assert get_human_age(cat_age, dog_age) == [3, 3]
