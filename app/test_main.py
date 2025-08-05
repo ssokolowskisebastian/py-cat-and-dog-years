@@ -19,4 +19,3 @@ def test_get_human_age_should_be_equal_to_two() -> None:
 def test_get_human_age_should_be_equal_to_more_then_two() -> None:
     assert get_human_age(28, 29) == [3, 3]
     assert get_human_age(100, 100) == [21, 17]
-
